@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(245, 245, 220, 0.656);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+}
+.shop-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.categories {
+    padding: 10px;
+}
+
+.products {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-info {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.product-info button {
+    display: block;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
